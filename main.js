@@ -28,6 +28,7 @@ function getResults(city){
                 .then( weather => weather.json()) // access the link, parse it and get the informations inside the API
         
                 // ! Step 3: Pass all information into a parameter name!
+                
                 .then((arg1) =>{
                     let city = document.querySelector('.location .city');
                     city.innerText = `${arg1.name},${arg1.sys.country}`;
