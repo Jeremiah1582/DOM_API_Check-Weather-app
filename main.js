@@ -89,13 +89,6 @@ function getResults(city){
 
 
 
-
-
-
-
-
-
-
     // ! =====================================================================================
 
 // ? Below part is just a sample for API object!
